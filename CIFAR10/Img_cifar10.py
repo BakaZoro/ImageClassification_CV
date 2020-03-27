@@ -66,7 +66,7 @@ score=model.evaluate(X_test,Y_test,batch_size=BATCH,verbose=0)
 import numpy as np
 import cv2
 
-imgs=cv2.imread('frog.jpg')
+imgs=cv2.imread('dog.jpg')
 imgs=cv2.resize(imgs,(32,32))
 
 # model.predict_classes(imgs.reshape(1,32,32,3),batch_size=128,verbose=1)
